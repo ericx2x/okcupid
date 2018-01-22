@@ -12,7 +12,7 @@ sleep 1;
 
 for((j=0;j<20;j++))
 do
-  for((i=0;i<16;i++))
+  for((i=0;i<18;i++))
   do
     xdotool key Tab;
   done
