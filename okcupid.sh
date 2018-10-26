@@ -1,5 +1,7 @@
 site="okcupid.com";
-msg="Uhh. Hi. Yeah, I feel you appear attractive and consequently would like to explore the possibility of enhancing your life by means of exposure to my sweetness.";
+msg="My dear creature, you seem tight. I would like to explore the possibility of enhancing your life with my blissful awesome abilities.";
+#My dear creature, you seem tight. I would like to explore the possibility of enhancing your life with my blissful awesome abilities.
+#Uhh. Hi. Yeah, I feel you appear attractive and consequently would like to explore the possibility of enhancing your life by means of exposure to my awesomeness.
 #browser="Google Chrome";
 browser="Firefox";
 
@@ -24,34 +26,32 @@ xdotool key Tab;
 sleep .5;
 xdotool key Tab;
 sleep .5;
-xdotool key Tab;
-sleep .5;
 xdotool key KP_Enter;
 sleep 5;
 
 
 
 
-for((x=0;x<45;x++))
+for((x=0;x<43;x++))
 do 
    xdotool key Tab;
 done
 
 
-xdotool key Tab;
-xdotool key Tab;
-sleep 1;
-xdotool key Right;
-sleep 1;
-xdotool key Down;
-sleep 1;
-xdotool key Down;
-sleep 1;
-xdotool key Down;
-sleep 1;
-xdotool key KP_Enter;
-sleep 1;
-xdotool key Tab;
+#xdotool key Tab;
+#xdotool key Tab;
+#sleep 1;
+#xdotool key Right;
+#sleep 1;
+#xdotool key Down;
+#sleep 1;
+#xdotool key Down;
+#sleep 1;
+#xdotool key Down;
+#sleep 1;
+#xdotool key KP_Enter;
+#sleep 1;
+#xdotool key Tab;
 
 sleep 2;
 
@@ -62,10 +62,10 @@ do
 #  xdotool keydown shift key Tab;
 #  xdotool keyup shift;
   xdotool key Tab;
-  xdotool key Tab;
-  xdotool key KP_Enter;
-  sleep 1.5;
-  xdotool key Tab;
+  #xdotool key Tab;
+  #xdotool key KP_Enter;
+  #sleep 1.5;
+  #xdotool key Tab;
   sleep 2.5;
 done
 
@@ -88,7 +88,7 @@ do
     xdotool key Tab;
   done
   xdotool key KP_Enter;
-  sleep 1;
+  sleep 2;
 
 
   xdotool type --delay 80 "$msg";
